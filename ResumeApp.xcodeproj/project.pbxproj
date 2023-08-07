@@ -11,6 +11,9 @@
 		16BB350F2A7F651D00ED9AB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB350E2A7F651D00ED9AB5 /* SceneDelegate.swift */; };
 		16BB35112A7F651D00ED9AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB35102A7F651D00ED9AB5 /* ViewController.swift */; };
 		16BB35162A7F651F00ED9AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BB35152A7F651F00ED9AB5 /* Assets.xcassets */; };
+		16BB35212A7FCD7B00ED9AB5 /* AddSkillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB35202A7FCD7B00ED9AB5 /* AddSkillCollectionViewCell.swift */; };
+		16BB35232A7FCDAD00ED9AB5 /* SkillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB35222A7FCDAD00ED9AB5 /* SkillCollectionViewCell.swift */; };
+		16BB35252A7FCE0700ED9AB5 /* Extension + ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB35242A7FCE0700ED9AB5 /* Extension + ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		16BB35102A7F651D00ED9AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16BB35152A7F651F00ED9AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16BB351A2A7F651F00ED9AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BB35202A7FCD7B00ED9AB5 /* AddSkillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSkillCollectionViewCell.swift; sourceTree = "<group>"; };
+		16BB35222A7FCDAD00ED9AB5 /* SkillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCollectionViewCell.swift; sourceTree = "<group>"; };
+		16BB35242A7FCE0700ED9AB5 /* Extension + ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				16BB350C2A7F651D00ED9AB5 /* AppDelegate.swift */,
 				16BB350E2A7F651D00ED9AB5 /* SceneDelegate.swift */,
 				16BB35102A7F651D00ED9AB5 /* ViewController.swift */,
+				16BB35242A7FCE0700ED9AB5 /* Extension + ViewController.swift */,
+				16BB35222A7FCDAD00ED9AB5 /* SkillCollectionViewCell.swift */,
+				16BB35202A7FCD7B00ED9AB5 /* AddSkillCollectionViewCell.swift */,
 				16BB35152A7F651F00ED9AB5 /* Assets.xcassets */,
 				16BB351A2A7F651F00ED9AB5 /* Info.plist */,
 			);
@@ -130,7 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BB35252A7FCE0700ED9AB5 /* Extension + ViewController.swift in Sources */,
+				16BB35232A7FCDAD00ED9AB5 /* SkillCollectionViewCell.swift in Sources */,
 				16BB35112A7F651D00ED9AB5 /* ViewController.swift in Sources */,
+				16BB35212A7FCD7B00ED9AB5 /* AddSkillCollectionViewCell.swift in Sources */,
 				16BB350D2A7F651D00ED9AB5 /* AppDelegate.swift in Sources */,
 				16BB350F2A7F651D00ED9AB5 /* SceneDelegate.swift in Sources */,
 			);
